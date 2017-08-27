@@ -41,19 +41,24 @@ int main() {
 
 	char i, j;
 
-	i = 'A'; // chars are set using single quotes
+	i = 'A'; // Chars are set using single quotes
 	j = 65; // Chars accept both characters and their ascii equivalents
 
 	cout << "Both " << i << " and " << j << " are 'A'" << endl;
 
 	float k;
 
-	k = 0.5f; // all values must have 'f' placed at the end
+	k = 0.5f; // All values must have 'f' placed at the end
 
 	double l;
 	l = 0.999;
 
 	cout << "Both are outputted as the decimal values " << k << " and " << l << endl;
+	/* Constant variables are defined by 'const', and it is best practice to
+	 * capitalize and to initalize in the same line */
+	const int M = 0;
+
+	cout << "The constant M is equal to " << M << endl;
 
 	return 0;
 }
