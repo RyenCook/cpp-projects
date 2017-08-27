@@ -55,5 +55,25 @@ int main() {
 
 	cout << "Both are outputted as the decimal values " << k << " and " << l << endl;
 
+        /* Constant variables are defined by 'const', and it is best practice to
+         * capitalize and to initalize in the same line */
+        const int M = 0;
+
+        cout << "The constant M is equal to " << M << endl;
+
+	signed int n = -100; // Signed modifier, allows negative
+	unsigned int o = 999; //Unsigned modifier, positive only
+	short int  p = 5; // Limits width to 2 bytes
+	long double q = 0.238243228582357728375; // Long extends length by 2 bytes (could have long long)
+	signed r = -69; // Modifier by themeselves assume int as a short hand (signed r = signed int r)
+
+	cout << "The value of n " << n << endl;
+	cout << "The value of o " << o << endl;
+	cout << "The value of p " << p << endl;
+	cout << "The value of q " << q << endl;
+	cout << "The value of r " << r << endl;
+
+	// Other modifiers include volatile and restrict
+
 	return 0;
 }
