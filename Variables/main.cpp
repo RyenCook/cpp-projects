@@ -54,11 +54,6 @@ int main() {
 	l = 0.999;
 
 	cout << "Both are outputted as the decimal values " << k << " and " << l << endl;
-	/* Constant variables are defined by 'const', and it is best practice to
-	 * capitalize and to initalize in the same line */
-	const int M = 0;
-
-	cout << "The constant M is equal to " << M << endl;
 
 	return 0;
 }
