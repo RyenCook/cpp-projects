@@ -8,6 +8,7 @@ using namespace std;
  *  int - Stores an integer
  *  float - Stores a floating point (of 4 bytes or about 7 digits)
  *  double - Stores a floating point (of 8 bytes or about 15 digits)
+ *  wchar_t - Is like a character, but can store values larged than 256 (ie unicode > ascii)
  */
 
 // Any variables placed outside a function are global
@@ -30,6 +31,29 @@ int main() {
 	cout << "The value of a + b is " << (a + b) << endl;
 	cout << "The value of c - d is " << (c - d) << endl;
 	cout << "The value of e * f is " << (e * f) << endl;
+
+	bool g, h;
+
+	g = true;
+	h = 0; // Boolean values can both be set to true/false or 1/0
+
+	cout << "Booleans can both be " << g << " or " << h << endl;
+
+	char i, j;
+
+	i = 'A'; // chars are set using single quotes
+	j = 65; // Chars accept both characters and their ascii equivalents
+
+	cout << "Both " << i << " and " << j << " are 'A'" << endl;
+
+	float k;
+
+	k = 0.5f; // all values must have 'f' placed at the end
+
+	double l;
+	l = 0.999;
+
+	cout << "Both are outputted as the decimal values " << k << " and " << l << endl;
 
 	return 0;
 }
