@@ -1,19 +1,19 @@
 # cpp-projects
 Projects for better learning C++
 
-## contents
-1. Arrays
-2. Classes
-3. Decisions
-4. Functions
-5. Headers
-6. HelloWorld
-7. Loops
-8. Math
-9. Operators
-10. Points
+## Content
+1. Arrays - Working with varied-dimensional arrays
+2. Classes - Learning how classes work in C++
+3. Decisions - If/Else/Switch
+4. Functions - C++'s methods
+5. Headers - C++'s interfaces
+6. HelloWorld - Given
+7. Loops - For/While/Do...While
+8. Math - Doing some maths
+9. Operators - Symbols that do things
+10. Pointers - How to reference and use pointers
 11. Programs
-	1. Cats
-12. Storage
-13. Strings
-14. Variables
+	1. Cats - Foreray into basic OOP with c++
+12. Storage - Learning how C++ stores objects
+13. Strings - String mutations
+14. Variables - Review of variables
