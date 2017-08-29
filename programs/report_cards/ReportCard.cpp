@@ -4,7 +4,7 @@
 #include "ReportCard.h"
 
 // Private functions
-char ReportCard::calculate(){
+char rc::ReportCard::calculate(){
 	char grade = 'S';
 	double sum  = 0;
 	for(int i=0; i<sizeof(grades)/sizeof(grades[0]); i++){
@@ -27,23 +27,23 @@ char ReportCard::calculate(){
 }
 
 // Public functions
-ReportCard::ReportCard(int t_no, std::string t_name) {
+rc::ReportCard::ReportCard(int t_no, std::string t_name) {
 	no = t_no;
 	name = t_name;
 }
 
-void ReportCard::setGrade(int t_pos, double t_grade) {
+void rc::ReportCard::setGrade(int t_pos, double t_grade) {
 	grades[t_pos] = t_grade;
 }
 
-std::string ReportCard::getName() {
+std::string rc::ReportCard::getName() {
 	return name;
 }
 
-double ReportCard::getGrade(int t_pos) {
+double rc::ReportCard::getGrade(int t_pos) {
 	return grades[t_pos];
 }
 
-char ReportCard::getLetterGrade() {
+char rc::ReportCard::getLetterGrade() {
 	return calculate();
 }

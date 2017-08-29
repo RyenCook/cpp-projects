@@ -3,6 +3,8 @@
 #include <string>
 #include <cstring>
 
+namespace rc {
+
 class ReportCard{
 	private:
 		int no;
@@ -17,5 +19,7 @@ class ReportCard{
 		double getGrade(int t_pos); // Get numberical grade in grades[t_pos]
 		char getLetterGrade(); // Get final letter grade
 };
+
+}
 
 #endif

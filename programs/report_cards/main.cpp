@@ -13,7 +13,7 @@ int main() {
 	std::cout << "Enter in the student's name: " << std::flush;
 	std::cin >> name;
 
-	ReportCard card(no, name);
+	rc::ReportCard card(no, name);
 	
 	std::cout << "Enter in the grades: " << std::endl;
 
