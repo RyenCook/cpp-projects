@@ -16,5 +16,5 @@ Projects for better learning C++
 	1. Cats - Foreray into basic OOP with c++
 12. Storage - Learning how C++ stores objects
 13. Strings - String mutations
-14. Templates - Generic blueprints for generic things
+14. Templates - Generic placeholders for valid objects
 15. Variables - Review of variables
