@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 	cout << add(2,5) << endl;
 	cout << subtract(7,4) << endl;
+	cout << add(7,9) << endl;
 	return 0;
 }
 
