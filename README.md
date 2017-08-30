@@ -2,6 +2,7 @@
 Projects for better learning C++
 
 ## Content
+0. Comments
 1. Arrays - Working with varied-dimensional arrays
 2. Classes - Learning how classes work in C++
 3. Decisions - If/Else/Switch
