@@ -13,7 +13,7 @@ Projects for better learning C++
 10. Pointers - How to reference and use pointers
 11. Programs
 	1. Cats - Foreray into basic OOP with c++
-	2. Report_Cards - Another foreay into OOP
+	2. Report_Cards - Another, more advanced foreay into OOP
 12. Storage - Learning how C++ stores objects
 13. Strings - String mutations
 14. Templates - Generic placeholders for valid objects
