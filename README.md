@@ -19,3 +19,4 @@ Projects for better learning C++
 13. Strings - String mutations
 14. Templates - Generic placeholders for valid objects
 15. Variables - Review of variables
+16. Vectors - The ArrayLists of C++
