@@ -11,6 +11,16 @@ int main()
 	double bal = 200.5;
 	BankAccount myAcc(1, "Ryan Cook", bal);
 	myBank.addAccount(myAcc);
+	std::string new_name;
+	std::cout << "Enter a new name: " << std::flush;
+	std::cin >> new_name;
+	if(myBank.getAccount(1) != -1)
+	{
+		myBank.updateAccount(myBank.getAccount(1), new_name);
+		std::cout << "Updated" << std::endl;
+	}else{
+		std::cout << "Not Updated" << std::endl;
+	}
 	if(myBank.getAccount(1) != -1)
 	{
 		myBank.removeAccount(1);

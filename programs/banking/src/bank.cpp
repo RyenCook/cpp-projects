@@ -1,3 +1,4 @@
+#include <iostream> // For the time being
 #include <string>
 #include <vector>
 #include "../include/bank.h"
@@ -29,4 +30,9 @@ void Bank::addAccount(BankAccount t_bank)
 void Bank::removeAccount(int t_index)
 {
 	m_accounts.erase(m_accounts.begin() + t_index);
+}
+
+void Bank::updateAccount(int t_index, std::string t_name)
+{
+	m_accounts[t_index].setName(t_name);
 }
