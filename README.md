@@ -14,7 +14,7 @@ Projects for better learning C++
 10. Parameter - Mainly passing objects
 11. Pointers - How to reference and use pointers
 12. Programs
-	1. Banking - More advanced foreay into OOP
+	1. Banking - Even more advanced foreay into OOP
 	2. Cats - Foreray into basic OOP with c++
 	3. Report_Cards - Another, more advanced foreay into OOP
 13. Storage - Learning how C++ stores objects
