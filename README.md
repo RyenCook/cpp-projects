@@ -11,13 +11,14 @@ Projects for better learning C++
 7. Loops - For/While/Do...While
 8. Math - Doing some maths
 9. Operators - Symbols that do things
-10. Pointers - How to reference and use pointers
-11. Programs
+10. Parameter - Mainly passing objects
+11. Pointers - How to reference and use pointers
+12. Programs
 	1. Banking - More advanced foreay into OOP
 	2. Cats - Foreray into basic OOP with c++
 	3. Report_Cards - Another, more advanced foreay into OOP
-12. Storage - Learning how C++ stores objects
-13. Strings - String mutations
-14. Templates - Generic placeholders for valid objects
-15. Variables - Review of variables
-16. Vectors - The ArrayLists of C++
+13. Storage - Learning how C++ stores objects
+14. Strings - String mutations
+15. Templates - Generic placeholders for valid objects
+16. Variables - Review of variables
+17. Vectors - The ArrayLists of C++
