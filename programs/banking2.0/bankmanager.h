@@ -2,6 +2,7 @@
 #define BANK_MANAGER_H_
 
 #include <string>
+#include "bankaccount.h"
 #include "bank.h"
 
 class BankManager
@@ -12,6 +13,7 @@ class BankManager
 		BankManager();
 		BankManager(Bank&);
 		std::string getName();
+		std::string getInfo();
 };
 
 #endif /* BANK_MANAGER_H_ */
