@@ -11,7 +11,7 @@ class BankAccount
 		double m_balance;
 	public:
 		BankAccount();
-		BankAccount(int& t_id, std::string& t_name, double& t_balance);
+		BankAccount(int t_id, std::string t_name, double t_balance);
 		std::string getInfo();
 };
 

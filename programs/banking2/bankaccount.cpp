@@ -8,7 +8,7 @@ BankAccount::BankAccount()
 	m_balance = 0.0;
 }
 
-BankAccount::BankAccount(int& t_id, std::string& t_name, double& t_balance)
+BankAccount::BankAccount(int t_id, std::string t_name, double t_balance)
 {
 	m_id = t_id;
 	m_name = t_name;
