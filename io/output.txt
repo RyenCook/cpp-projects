@@ -1,0 +1,5 @@
+This
+was
+read
+from
+input.txt
