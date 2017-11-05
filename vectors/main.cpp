@@ -7,6 +7,7 @@
  * vector<type> vector_name(number_of_elements); - The number_of_elements is optional
  * vector<type> vector_name;
  *
+ * When passing vectors you must pass them by reference
  */
 int main()
 {
