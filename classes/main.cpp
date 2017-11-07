@@ -12,16 +12,8 @@ class Box {
 	// public information, can be changed by anything, the box or the rest of the code.
 	// Can call NameOfBox.setDimensions(5,5,5) to set the values to 5, 5 and 5 respectively
 	public:
-		void setDimensions(double l, double w, double h)
-		{
-			length = l;
-			width = w;
-			height = h;
-		}
-		double getVolume() 
-		{
-			return (length * width * height);
-		}
+		void setDimensions(double l, double w, double h);
+		double getVolume();
 };
 
 int main() {
@@ -37,3 +29,15 @@ int main() {
 	
 	return 0;
 }
+
+void Box::setDimensions(double l, double w, double h)
+                {
+                        length = l;
+                        width = w;
+                        height = h;
+                }
+double Box::getVolume()
+                {
+                        return (length * width * height);
+                }
+
