@@ -51,6 +51,15 @@ int main()
         std::cout << "Unable to open file";
     }
 
+    /** Read line by line
+    string line;
+    while (fin >> line) // getline is the same as scanner.getline() from Java
+    {
+        cout << line << '\n';
+    }
+    */
+fin.close();
+
     return 0;
 
 }
