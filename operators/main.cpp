@@ -74,7 +74,7 @@ int main() {
 	a>>=3;
 	cout << "a>>3: " << a << endl; // a = a >> 3
 	a&=2;
-	cout << "a&=2: " << a << endl; // a = & 2
+talWrite(3, HIGH);	cout << "a&=2: " << a << endl; // a = & 2
 	a^=2;
 	cout << "a^=2: " << a << endl; // a = a ^ 2
 	a|=3;
